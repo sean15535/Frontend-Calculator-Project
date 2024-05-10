@@ -1,0 +1,58 @@
+Frontend Calculator Project
+This assignment challenges you to build a fully functional calculator using HTML, CSS, and JavaScript only.
+
+Project Goal:
+
+Develop a web-based calculator replicating the functionality provided in this diagram.
+
+Requirements:
+
+Functionality:
+Implement all buttons present in the diagram. Each button should perform its intended operation and update the displayed output.
+Consider potential approximation errors to avoid unexpected behavior.
+Structure:
+Utilize an HTML table to create a well-organized layout for the calculator.
+Employ buttons and input fields for user interaction and output display.
+Deployment:
+Host your completed calculator on GitHub Pages.
+Include a clear link to your code repository (Repo) within the calculator page for easy access by the grader.
+Restrictions:
+Do not use any external frameworks or libraries for this project.
+Getting Started:
+
+Plan the Layout: Sketch the calculator interface based on the provided diagram. Identify the placement of buttons, input fields, and the output display.
+Develop the HTML Structure:
+Create an HTML document using appropriate tags to define the overall structure.
+Utilize a table element to organize the calculator layout, incorporating rows and columns for buttons, input fields, and the output display.
+Employ <button> elements for each interactive button.
+Include an <input type="text"> element for displaying the calculation result.
+Implement Button Functionality (JavaScript):
+Write JavaScript code to handle user interaction with the buttons.
+Inside JavaScript functions assigned to button click events, implement the necessary calculations based on the button's function (addition, subtraction, etc.).
+Update the value of the input field displaying the output using techniques like document.getElementById("output").value = result;.
+Consider using appropriate mathematical operators (+, -, *, /) within your JavaScript code to perform calculations.
+Style with CSS (Optional):
+Create a separate CSS file (or add styles directly within the HTML) to customize the appearance of your calculator.
+Define styles for the table, buttons, input field, and output display for a user-friendly interface.
+Test and Debug:
+Thoroughly test your calculator with various inputs to ensure proper functionality.
+Use browser developer tools to identify and fix any JavaScript errors that may arise.
+Deployment:
+
+Create a GitHub Repository:
+Set up a new repository on GitHub to store your calculator project files.
+Push Code to GitHub:
+Use Git commands or the GitHub interface to push your HTML, CSS, and JavaScript files to your newly created repository.
+Activate GitHub Pages:
+Within your GitHub repository settings, activate GitHub Pages to enable hosting of your static website.
+Follow the provided instructions to configure the source folder containing your calculator files.
+Access your Hosted Calculator:
+Once GitHub Pages successfully deploys your project, you will receive a unique URL. This URL will grant access to your online calculator.
+Grading Rubric:
+
+Functionality (60%): All buttons are implemented correctly, calculations function as expected, and the calculator handles potential approximation errors.
+Structure & Organization (20%): The calculator utilizes a well-structured HTML table layout with clear placement of buttons, input field, and output display.
+Deployment & Code Accessibility (20%): The calculator is successfully hosted on GitHub Pages, and the code repository link is clearly displayed on the calculator page.
+ 
+
+By completing this project, you will gain valuable experience in building interactive web applications using fundamental web development technologies.
